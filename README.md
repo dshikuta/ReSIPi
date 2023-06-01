@@ -8,7 +8,7 @@ Whereas this project provides access to recipes, it does not provide access to p
 The project is more useful and suitable to those who are in hospitality industries, culinary art students and anyone else interested in eating healthy food.
 This project is not necessarily relevant or dependent on a specific locale, as it can be used by individuals around the world. Anyone who eats cooks, anyone who cooks prepares thus the ReSIPi
 
-##Implementation Technology
+## Implementation Technology
 
 This project is implement using the following technologies 
 -HTML
