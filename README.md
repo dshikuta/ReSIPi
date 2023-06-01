@@ -1,5 +1,5 @@
 # ReSIPi
-"something good is cooking"
+### "something good is cooking"
 
 ## Project Description
 This project is a recipe platform that features a number of free recipes obtained through a free recipe API.
