@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: #0c2461;
+  background: #ffd700;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .recipe-item a {
-  background: #0c2461;
+  background: #ffd700;
   color: #fff;
   min-width: 150px;
   padding: 10px;

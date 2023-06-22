@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 //fetch recipe lists from the API Key and display.
 
+=======
+>>>>>>> cb388ad4f084ab75a0afb14da73607431e86b47e
 const API_KEY = "f61dd5f9988848f09f97ce0370b801b9";
 const recipeListEl = document.getElementById("recipe-list");
 
