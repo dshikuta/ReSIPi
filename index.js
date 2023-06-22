@@ -1,5 +1,9 @@
-const API_KEY = "275d58779ccf4e22af03e792e8819fff";
+//fetch recipe lists from the API Key and display.
+
+const API_KEY = "f61dd5f9988848f09f97ce0370b801b9";
 const recipeListEl = document.getElementById("recipe-list");
+
+//Display receipes on the webpage
 
 function displayRecipes(recipes) {
   recipeListEl.innerHTML = "";
@@ -9,6 +13,8 @@ function displayRecipes(recipes) {
     recipeImageEl = document.createElement("img");
     recipeImageEl.src = recipe.image;
     recipeImageEl.alt = "recipe image";
+
+//create recipe image and title
 
     recipeTitleEl = document.createElement("h2");
     recipeTitleEl.innerText = recipe.title;
@@ -31,6 +37,7 @@ function displayRecipes(recipes) {
     recipeListEl.appendChild(recipeItemEl);
   });
 }
+//fetch  recipe lists from spoonacular.com with  the API key
 
 async function getRecipes() {
   const response = await fetch(
@@ -46,5 +53,7 @@ async function init() {
   const recipes = await getRecipes();
   displayRecipes(recipes);
 }
+
+//initialize the webpage to fetch recipes
 
 init();
